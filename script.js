@@ -19,8 +19,8 @@ const menuData = [
     {
         category: "Especialidades",
         items: [
-            { id: 6, name: "Choripán Especial", price: 8000, desc: "Chorizo sin piel, lechuga, tomate, ají opcional" },
-            { id: 7, name: "Lomo Completo", price: 12000, desc: "320gr carne, mozzarella, jamón, huevo, tomate, lechuga" },
+            { id: 6, name: "Choripán", price: 8000, desc: "Chorizo sin piel, lechuga, tomate, ají opcional" },
+            { id: 7, name: "Lomo Completo", price: 12000, desc: "320gr carne, queso, jamón, huevo, tomate, lechuga" },
             { id: 8, name: "Sándwich Vegetariano", price: 6000, desc: "Pan árabe, tomate, lechuga, queso, huevo" }
         ]
     }
