@@ -83,7 +83,7 @@ function openOptionsModal(id) {
     listContainer.innerHTML = '';
 
     // Aderezos Base
-    const baseCondiments = ["Mayonesa", "Ketchup", "Salsa Golf", "Ají Picante"];
+    const baseCondiments = ["Mayonesa", "Ketchup", "Salsa Golf", "Mostaza", "Ají Picante"];
     
     baseCondiments.forEach(cond => {
         createCheckbox(listContainer, cond);
