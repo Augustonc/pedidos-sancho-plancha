@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sancho Plancha | Menú Digital</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo-container">
+            <h1>SANCHO PLANCHA</h1>
+            <p>¡Pide y recoge o te lo llevamos!</p>
+            <p class="status">Martes a Domingo 19:00 - 01:30hs</p>
+        </div>
+    </header>
+
+    <main id="menu-container">
+        </main>
+
+    <div id="cart-sticky" class="hidden">
+        <div class="cart-info">
+            <span id="cart-count">0 items</span>
+            <span id="cart-total">$0</span>
+        </div>
+        <button onclick="openCheckoutModal()">Ver Pedido</button>
+    </div>
+
+    <div id="checkout-modal" class="modal hidden">
+        <div class="modal-content">
+            <h2>Tu Pedido</h2>
+            <div id="order-items"></div>
+            <div class="total-section">
+                <h3>Total: <span id="modal-total">$0</span></h3>
+            </div>
+            
+            <form id="delivery-form" onsubmit="finalizeOrder(event)">
+                <div class="form-group">
+                    <label>Tu Nombre:</label>
+                    <input type="text" id="customer-name" required placeholder="Ej: Juan Perez">
+                </div>
+                <div class="form-group">
+                    <label>Dirección de entrega (o 'Retiro en local'):</label>
+                    <input type="text" id="customer-address" required placeholder="Ej: San Martin Sur 21">
+                </div>
+                <div class="form-group">
+                    <label>Método de pago:</label>
+                    <select id="payment-method">
+                        <option value="Efectivo">Efectivo</option>
+                        <option value="Transferencia">Transferencia</option>
+                    </select>
+                </div>
+                
+                <div class="modal-actions">
+                    <button type="button" class="btn-cancel" onclick="closeCheckoutModal()">Seguir pidiendo</button>
+                    <button type="submit" class="btn-confirm">Enviar Pedido por WhatsApp</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
