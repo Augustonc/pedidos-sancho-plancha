@@ -11,15 +11,15 @@ const menuData = [
     {
         category: "Hamburguesas",
         items: [
-            { id: 4, name: "Hamburguesa Simple", price: 7500, desc: "Jamón, queso, huevo, lechuga, tomate, 1 medallón XXL" },
-            { id: 5, name: "Hamburguesa Doble", price: 9000, desc: "Jamón, queso, huevo, lechuga, tomate, 2 medallones XXL" }
+            { id: 4, name: "Hamburguesa Simple", price: 8500, desc: "Jamón, queso, huevo, lechuga, tomate, 1 medallón XXL" },
+            { id: 5, name: "Hamburguesa Doble", price: 9500, desc: "Jamón, queso, huevo, lechuga, tomate, 2 medallones XXL" }
         ]
     },
     {
         category: "Especialidades",
         items: [
-            { id: 6, name: "Choripán", price: 8000, desc: "Chorizo sin piel, lechuga, tomate, ají opcional" },
-            { id: 7, name: "Lomo Completo", price: 12000, desc: "320gr carne, queso, jamón, huevo, tomate, lechuga" },
+            { id: 6, name: "Choripán", price: 8500, desc: "Chorizo sin piel, lechuga, tomate, ají opcional" },
+            { id: 7, name: "Lomo Completo", price: 13500, desc: "320gr carne, queso, jamón, huevo, tomate, lechuga" },
             { id: 8, name: "Sándwich Vegetariano", price: 6000, desc: "Pan árabe, tomate, lechuga, queso, huevo" }
         ]
     }
