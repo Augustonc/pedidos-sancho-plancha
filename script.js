@@ -3,25 +3,25 @@ const menuData = [
     {
         category: "Panchos", // IMPORTANTE: Mantener este nombre exacto para la lógica de las papas
         items: [
-            { id: 1, name: "Pancho Simple", price: 2500, desc: "Clásico" },
-            { id: 2, name: "Pancho Doble", price: 3500, desc: "Doble salchicha" },
-            { id: 3, name: "Pancho con Poncho", price: 4000, desc: "Especialidad de la casa" }
+            { id: 1, name: "Pancho Simple", price: 3000, desc: "Clásico" },
+            { id: 2, name: "Pancho Doble", price: 4000, desc: "Doble salchicha" },
+            { id: 3, name: "Pancho con Poncho", price: 5000, desc: "Especialidad de la casa" }
         ]
     },
     {
         category: "Hamburguesas",
         items: [
-            { id: 4, name: "Hamburguesa Simple", price: 8500, desc: "Jamón, queso, huevo, lechuga, tomate, 1 medallón XXL" },
-            { id: 5, name: "Hamburguesa Doble", price: 9500, desc: "Jamón, queso, huevo, lechuga, tomate, 2 medallones XXL" }
+            { id: 4, name: "Hamburguesa Simple", price: 9000, desc: "Jamón, queso, huevo, lechuga, tomate, 1 medallón XXL" },
+            { id: 5, name: "Hamburguesa Doble", price: 10000, desc: "Jamón, queso, huevo, lechuga, tomate, 2 medallones XXL" }
         ]
     },
     {
         category: "Especialidades",
         items: [
-            { id: 6, name: "Choripán", price: 8500, desc: "Chorizo sin piel, lechuga, tomate, ají opcional" },
-            { id: 7, name: "Choripán Especial", price: 9500, desc: "Chorizo sin piel, jamón, queso, huevo, lechuga, tomate, ají opcional" },
-            { id: 8, name: "Lomo Completo", price: 13500, desc: "320gr carne, queso, jamón, huevo, tomate, lechuga" },
-            { id: 9, name: "Sándwich Vegetariano", price: 6000, desc: "Pan árabe, tomate, lechuga, queso, huevo" }
+            { id: 6, name: "Choripán", price: 9000, desc: "Chorizo sin piel, lechuga, tomate, ají opcional" },
+            { id: 7, name: "Choripán Especial", price: 10000, desc: "Chorizo sin piel, jamón, queso, huevo, lechuga, tomate, ají opcional" },
+            { id: 8, name: "Lomo Completo", price: 14000, desc: "320gr carne, queso, jamón, huevo, tomate, lechuga" },
+            { id: 9, name: "Sándwich Vegetariano", price: 6500, desc: "Pan árabe, tomate, lechuga, queso, huevo" }
         ]
     }
 ];
